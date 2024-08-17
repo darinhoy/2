@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+body{
+    font-family: sans-serif;
+    margin: 20%;
+}
+  .header {
+    background-color: #59D4EB;
+    height: 80px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero {
+    color: white;
+    flex: 1 0 30%;
+    height: 400px;
+    background-color: #D5C9E2;
+    margin: 10px;
+  }
+  .main-content {
+    margin: 10px;
+    flex: 1 0 60%;
+    height: 600px;
+    background-color: #8f6f18;
+    color: white;
+  }
+  
+  .sidebar {
+    margin: 10px;
+    height: 500px;
+    flex: 1 0 30%;
+    background-color: #A0C263;
+    color: white;
+    margin-top: -200px;
+  }
+  
+  .extra-content {
+    margin: 10px;
+    flex: 1 0 60%;
+    background-color: #898989;
+    height: px;
+    color: white;
+  }
+  .images-posts-cont {
+    display: flex;
+    height: 150px;
+    color: white;
+  }
+  .images {
+    flex: 1 0 45%;
+    background-color: #53B774;
+    margin: 10px;
+  }
+  .posts {
+    flex: 0.5 0 30%;
+    background-color: #F3CDDD;
+    margin: 10px;
+  }  
+  .footer {
+    margin: 10px;
+    text-align: center;
+    height: 80px;
+    background-color: #F4A540;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
